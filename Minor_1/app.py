@@ -38,6 +38,8 @@ def login():
 @app.route("/callback")
 def callback():
     code = request.args.get("code")
+    
+    print("ACCESS CODE:", code)
 
     if not code:
         return {"error": "No authorization code received"}, 400

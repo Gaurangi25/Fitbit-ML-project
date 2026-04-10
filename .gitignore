@@ -36,8 +36,8 @@ Minor_1/features/hr_graph/
 Minor_2/catboost_info/
 
 # ========================
-# Keep important small data (optional)
+# KEEP IMPORTANT FILES
 # ========================
 !Minor_1/data/daily_data.csv
-!Minor_1/data/evaluation_results.csv
 !Minor_1/data/hourly_data.csv
+!Minor_1/data/evaluation_results.csv
